@@ -1,28 +1,24 @@
 {
-  "name": "qrcode-terminal",
+  "name": "qrcode-console",
   "keywords": ["ansi", "ascii", "qrcode", "console"],
-  "version" : "0.9.4",
-  "description" : "QRCodes, in the terminal",
-  "homepage": "https://github.com/gtanner/qrcode-terminal",
+  "version" : "0.1.0",
+  "description" : "QRCodes, in the console",
+  "homepage": "https://github.com/hotuna/qrcode-console",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gtanner/qrcode-terminal"
+    "url": "https://github.com/gtanner/qrcode-console"
   },
   "contributors": [{
-    "name": "Gord Tanner",
-    "email": "gtanner@gmail.com",
-    "url": "http://github.com/gtanner"
-  }, {
-    "name": "Michael Brooks",
-    "email": "mikeywbrooks@gmail.com",
-    "url": "http://github.com/mwbrooks"
+    "name": "June Park",
+    "email": "ilove562@gmail.com",
+    "url": "http://github.com/hotuna"
   }],
   "licenses": [{
     "type": "Apache 2.0"
   }],
   "main": "./lib/main",
   "bin": {
-      "qrcode-terminal": "./bin/qrcode-terminal.js"
+      "qrcode-console": "./bin/qrcode-console.js"
   },
   "preferGlobal": false,
   "devDependencies": {
